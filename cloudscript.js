@@ -6,6 +6,5 @@ handlers.HelloWorld = function (args, context) {
         VirtualCurrency: "GC", // use your currency code, e.g., CO/GC
         Amount: 10
     });
-
     return { message: "Hello " + who + "! 10 coins granted." };
 };
